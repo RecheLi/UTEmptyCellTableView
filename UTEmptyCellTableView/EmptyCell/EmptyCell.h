@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EmptyCell.h
 //  UTEmptyCellTableView
 //
 //  Created by linitial on 2017/8/24.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface EmptyCell : UITableViewCell
 
++ (instancetype)cellWithTableView:(UITableView *)tableview;
 
 @end
-

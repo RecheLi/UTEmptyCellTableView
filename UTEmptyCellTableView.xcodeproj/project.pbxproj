@@ -13,6 +13,9 @@
 		9FEBAD871F4EB06400EB1C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEBAD851F4EB06400EB1C12 /* Main.storyboard */; };
 		9FEBAD891F4EB06400EB1C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEBAD881F4EB06400EB1C12 /* Assets.xcassets */; };
 		9FEBAD8C1F4EB06400EB1C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEBAD8A1F4EB06400EB1C12 /* LaunchScreen.storyboard */; };
+		9FEBAD961F4EB16500EB1C12 /* UITableView+UTEmptyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBAD951F4EB16500EB1C12 /* UITableView+UTEmptyCell.m */; };
+		9FEBAD9B1F4EB24E00EB1C12 /* EmptyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBAD991F4EB24E00EB1C12 /* EmptyCell.m */; };
+		9FEBAD9C1F4EB24E00EB1C12 /* EmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEBAD9A1F4EB24E00EB1C12 /* EmptyCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		9FEBAD881F4EB06400EB1C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FEBAD8B1F4EB06400EB1C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FEBAD8D1F4EB06400EB1C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FEBAD941F4EB16500EB1C12 /* UITableView+UTEmptyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+UTEmptyCell.h"; sourceTree = "<group>"; };
+		9FEBAD951F4EB16500EB1C12 /* UITableView+UTEmptyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+UTEmptyCell.m"; sourceTree = "<group>"; };
+		9FEBAD981F4EB24E00EB1C12 /* EmptyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyCell.h; sourceTree = "<group>"; };
+		9FEBAD991F4EB24E00EB1C12 /* EmptyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyCell.m; sourceTree = "<group>"; };
+		9FEBAD9A1F4EB24E00EB1C12 /* EmptyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,8 @@
 		9FEBAD7B1F4EB06400EB1C12 /* UTEmptyCellTableView */ = {
 			isa = PBXGroup;
 			children = (
+				9FEBAD971F4EB24E00EB1C12 /* EmptyCell */,
+				9FEBAD931F4EB16500EB1C12 /* UTEmptyTable */,
 				9FEBAD7F1F4EB06400EB1C12 /* AppDelegate.h */,
 				9FEBAD801F4EB06400EB1C12 /* AppDelegate.m */,
 				9FEBAD821F4EB06400EB1C12 /* ViewController.h */,
@@ -77,6 +87,25 @@
 				9FEBAD7D1F4EB06400EB1C12 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FEBAD931F4EB16500EB1C12 /* UTEmptyTable */ = {
+			isa = PBXGroup;
+			children = (
+				9FEBAD941F4EB16500EB1C12 /* UITableView+UTEmptyCell.h */,
+				9FEBAD951F4EB16500EB1C12 /* UITableView+UTEmptyCell.m */,
+			);
+			path = UTEmptyTable;
+			sourceTree = "<group>";
+		};
+		9FEBAD971F4EB24E00EB1C12 /* EmptyCell */ = {
+			isa = PBXGroup;
+			children = (
+				9FEBAD981F4EB24E00EB1C12 /* EmptyCell.h */,
+				9FEBAD991F4EB24E00EB1C12 /* EmptyCell.m */,
+				9FEBAD9A1F4EB24E00EB1C12 /* EmptyCell.xib */,
+			);
+			path = EmptyCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FEBAD8C1F4EB06400EB1C12 /* LaunchScreen.storyboard in Resources */,
+				9FEBAD9C1F4EB24E00EB1C12 /* EmptyCell.xib in Resources */,
 				9FEBAD891F4EB06400EB1C12 /* Assets.xcassets in Resources */,
 				9FEBAD871F4EB06400EB1C12 /* Main.storyboard in Resources */,
 			);
@@ -150,9 +180,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEBAD961F4EB16500EB1C12 /* UITableView+UTEmptyCell.m in Sources */,
 				9FEBAD841F4EB06400EB1C12 /* ViewController.m in Sources */,
 				9FEBAD811F4EB06400EB1C12 /* AppDelegate.m in Sources */,
 				9FEBAD7E1F4EB06400EB1C12 /* main.m in Sources */,
+				9FEBAD9B1F4EB24E00EB1C12 /* EmptyCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +341,7 @@
 				9FEBAD921F4EB06400EB1C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

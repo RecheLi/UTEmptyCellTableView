@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  UTEmptyCellTableView
 //
-//  Created by liht on 2017/8/24.
+//  Created by linitial on 2017/8/24.
 //  Copyright © 2017年 linitial. All rights reserved.
 //
 
